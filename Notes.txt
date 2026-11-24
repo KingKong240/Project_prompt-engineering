@@ -1,0 +1,8 @@
+project-name/
+├─ venv/                 # Virtual environment (all your project-specific Python packages)
+├─ .env                  # Sensitive configuration (API keys, secrets) - not shared
+├─ requirements.txt      # List of Python packages and versions
+├─ main.py               # Main Python script (e.g., your prompt engineering logic)
+├─ prompts/              # Folder for prompt templates
+│  └─ base_prompt.txt
+└─ README.md             # Description of the projec
